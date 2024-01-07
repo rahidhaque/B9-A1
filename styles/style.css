@@ -18,6 +18,8 @@
     font-weight: 700;
 }
 
+
+
 /* header styles  */
 .banner {
     margin-top: 50px;
@@ -82,7 +84,7 @@
 
 /* welcome style section  */
 
-.welcome-2024{
+.welcome-2024 {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
     display: flex;
     justify-content: space-between;
@@ -102,9 +104,20 @@
 }
 
 .section-text-welcome {
-    max-width: 697px;;
+    max-width: 697px;
+    ;
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
     font-weight: 400;
 }
 
+.welcome-join {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 48px;
+    padding-left: 32px;
+    cursor: pointer;
+}
