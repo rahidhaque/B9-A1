@@ -87,9 +87,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 130px;
+    padding: 60px 130px;
     margin-bottom: 120px;
-    border-radius: 15px;
+    border-radius: 16px;
 }
 
 .welcome-text {
