@@ -73,9 +73,38 @@
     margin-bottom: 5px;
 }
 
-.deals img{
+.deals img {
     margin-top: 48px;
     width: 802.9px;
     height: 500px;
     margin-bottom: 120px;
 }
+
+/* welcome style section  */
+
+.welcome-2024{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 130px;
+    margin-bottom: 120px;
+    border-radius: 15px;
+}
+
+.welcome-text {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    padding-bottom: 24px;
+}
+
+.section-text-welcome {
+    max-width: 697px;;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+}
+
