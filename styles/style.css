@@ -172,8 +172,7 @@ button {
 
 .offer-description{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     gap: 70px;
 }
 
@@ -208,4 +207,38 @@ button {
 
 .happy-new-year-img{
     padding-top: 43px;
+}
+
+
+/* portfoloio style section  */
+#portfolio{
+    margin-top: 120px;
+    background-color: #FFF;
+    margin-bottom: 120px;
+}
+
+.gift-lists .red-text{
+    text-align: start;
+}
+
+.gift-lists .section-title{
+    text-align: start;
+    padding-bottom: 24px;
+}
+
+.gift-lists .section-text{
+    max-width: 896px;
+}
+
+.gift-images{
+    padding-top: 24px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.gift-img{
+    border-radius: 16px;
 }
