@@ -18,6 +18,16 @@
     font-weight: 700;
 }
 
+button{
+    color: #FFF;
+    border-radius: 8px;
+    background-color: #F00;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+}
 
 
 /* header styles  */
@@ -120,4 +130,32 @@
     padding-top: 48px;
     padding-left: 32px;
     cursor: pointer;
+}
+
+/* party venue detail styles  */
+
+#venue{
+    margin-bottom: 120px;
+}
+
+.venue-timing{
+    margin-bottom: 48px;
+}
+
+.venue-timing h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+}
+
+.venue-text-color {
+    color: #F00;
+}
+
+.venue-join{
+    text-align: center;
 }
