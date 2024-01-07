@@ -18,7 +18,22 @@
     font-weight: 700;
 }
 
-button{
+.red-text {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.section-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+button {
     color: #FFF;
     border-radius: 8px;
     background-color: #F00;
@@ -28,6 +43,7 @@ button{
     text-transform: uppercase;
     border: none;
 }
+
 
 
 /* header styles  */
@@ -76,14 +92,6 @@ button{
     text-align: center;
 }
 
-.deal-text {
-    color: #F00;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 5px;
-}
 
 .deals img {
     margin-top: 48px;
@@ -134,11 +142,11 @@ button{
 
 /* party venue detail styles  */
 
-#venue{
+#venue {
     margin-bottom: 120px;
 }
 
-.venue-timing{
+.venue-timing {
     margin-bottom: 48px;
 }
 
@@ -156,6 +164,48 @@ button{
     color: #F00;
 }
 
-.venue-join{
+.venue-join {
     text-align: center;
+}
+
+/* new year section offer styles  */
+
+.offer-description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.coming-soon .section-title {
+    padding-bottom: 22px;
+}
+
+.coming-soon .section-text {
+    max-width: 393px;
+    margin: 0 auto;
+}
+
+.offer-img{
+    text-align: center;
+    padding: 50px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.offer-text {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.offer-message .section-text{
+    max-width: 276px;
+    margin: 0 auto;
+}
+
+.happy-new-year-img{
+    padding-top: 43px;
 }
