@@ -304,7 +304,7 @@ button {
 
 /* subscribe styles  */
 
-#subscribe{
+#subscribe {
     margin-bottom: 120px;
 }
 
@@ -339,7 +339,8 @@ button {
     font-weight: 400;
     padding-left: 30px;
 }
-.subscribe-input{
+
+.subscribe-input {
     text-align: center;
 }
 
@@ -353,4 +354,46 @@ button {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* footer section styles  */
+
+
+footer {
+    width: 100%;
+    height: 609px;
+    background-color: #070211;
+}
+
+.footer-text {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contact-info {
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr-text {
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.15);
+}
+
+.social-medias{
+    text-align: center;
+}
+
+.social-medias img{
+    padding-top: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.security{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }
