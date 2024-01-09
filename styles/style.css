@@ -299,7 +299,7 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    row-gap: 24px;
+    gap: 24px;
 }
 
 .gift-img {
