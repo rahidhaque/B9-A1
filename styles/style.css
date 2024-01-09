@@ -348,6 +348,8 @@ button:hover{
     font-size: 18px;
     font-weight: 400;
     padding-left: 30px;
+    border: none;
+    outline: none;
 }
 
 .subscribe-input {
