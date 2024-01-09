@@ -54,7 +54,7 @@ button {
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(173, 3, 3);
 }
 
@@ -160,7 +160,7 @@ button:hover{
     margin-bottom: 120px;
 }
 
-.venue-detail{
+.venue-detail {
     background-color: rgba(255, 0, 0, 0.10);
 }
 
@@ -305,10 +305,14 @@ button:hover{
 
 .gift-img {
     border-radius: 16px;
+    opacity: 0.8;
+    transition: opacity .55s ease-in-out;
 }
 
 .gift-img:hover {
-    background-color: deepskyblue;
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    background-color: aquamarine;
 }
 
 /* subscribe styles  */
@@ -370,7 +374,7 @@ button:hover{
     cursor: pointer;
 }
 
-#subscribe-button:hover{
+#subscribe-button:hover {
     background-color: rgb(173, 3, 3);
 }
 
@@ -400,17 +404,17 @@ footer {
     color: rgba(255, 255, 255, 0.15);
 }
 
-.social-medias{
+.social-medias {
     text-align: center;
 }
 
-.social-medias img{
+.social-medias img {
     padding-top: 48px;
     padding-left: 24px;
     padding-right: 24px;
 }
 
-.security{
+.security {
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
