@@ -311,6 +311,9 @@ button:hover {
 .gift-img:hover {
     opacity: 1.0;
     transition: opacity .55s ease-in-out;
+    border-radius: 16px;
+    border: solid 3px orange;
+    transition: border-width 0.1s linear;
 }
 
 /* subscribe styles  */
