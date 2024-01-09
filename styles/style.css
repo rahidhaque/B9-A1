@@ -296,23 +296,21 @@ button:hover {
 
 .gift-images {
     padding-top: 24px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    gap: 24px;
+    row-gap: 24px;
 }
 
 .gift-img {
     border-radius: 16px;
-    opacity: 0.8;
+    opacity: 0.75;
     transition: opacity .55s ease-in-out;
 }
 
 .gift-img:hover {
     opacity: 1.0;
     transition: opacity .55s ease-in-out;
-    background-color: aquamarine;
 }
 
 /* subscribe styles  */
