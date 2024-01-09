@@ -51,6 +51,11 @@ button {
     font-weight: 700;
     text-transform: uppercase;
     border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(173, 3, 3);
 }
 
 
@@ -360,6 +365,11 @@ button {
     font-size: 20px;
     font-weight: 600;
     margin-left: -5px;
+    cursor: pointer;
+}
+
+#subscribe-button:hover{
+    background-color: rgb(173, 3, 3);
 }
 
 /* footer section styles  */
